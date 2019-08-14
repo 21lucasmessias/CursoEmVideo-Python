@@ -1,0 +1,5 @@
+num = str(input('Numero de 0 a 9999: '))
+print('Unidade: {}'.format(num[len(num) - 1: len(num)]))
+print('Dezena: {}'.format(num[len(num) - 2: len(num) - 1]))
+print('Centena: {}'.format(num[len(num) - 3: len(num) - 2]))
+print('Milhar: {}'.format(num[len(num) - 4: len(num) - 3]))
